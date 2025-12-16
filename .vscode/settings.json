@@ -1,0 +1,44 @@
+{
+    /* ---- Editor ---- */
+    "editor.trimAutoWhitespace": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [80, 100, 120],
+    /* ---- Terminal ---- */
+    "terminal.integrated.letterSpacing": 0,
+    /* ---- Programming Languages ---- */
+    // Python
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "always",
+        "editor.defaultFormatter": "eeyore.yapf",
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": false,
+        "editor.wordBasedSuggestions": "off",
+        "editor.tabSize": 4
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "python.defaultInterpreterPath": "C:\\Users\\dl026f\\source\\repos\\github.com\\ashellwig\\mxtools\\.venv\\Scripts\\python.exe",
+    //// Linting
+    "pylint.enabled": true,
+    "pylint.args": ["--rcfile=pyproject.toml"],
+    //// Formatting
+    "yapf.path": [],
+    "yapf.args": [
+        "--style",
+        "pyproject.toml"
+    ],
+    /* ---- Misc. ---- */
+    // Docstrings
+    "autoDocstring.docstringFormat": "google",
+    // Licencing
+    "license.author": "Ash Hellwig <ahellwig.dev@gmail.com>",
+    "license.default": "AGPLv3",
+    "license.extension": "",
+    "license.filename": "LICENSE",
+    "licenser.author": "Ash Hellwig <ahellwig.dev@gmail.com>",
+    "licenser.license": "AGPLv3",
+    "licenser.projectName": "mxtools",
+    "license.year": "2025",
+    "licenser.useSPDXLicenseFormat": false,
+}
