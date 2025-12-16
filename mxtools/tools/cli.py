@@ -28,6 +28,7 @@ def cli_hello():
 @click.command()
 @click.option("--api-key", envvar=["MXTOOLBOX_API_KEY"])
 @click.option("--domain")
+@click.option("--method")
 @click.option("--command")
-def cli_api(api_key: str, domain: str, command: str):
-    api(api_key=api_key, domain=domain, command=command)
+def cli_api(api_key: str, domain: str, method: str, command: str):
+    api(api_key=api_key, domain=domain, api_method=method, command=command)
